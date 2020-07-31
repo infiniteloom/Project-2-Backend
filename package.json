@@ -1,0 +1,14 @@
+{
+  "name":"Yama",
+  "version": "1.0.0",
+  "description": "An App Organizes State Parks by Ecosystem",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" :"nodemon server.j",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Lea Thomas",
+  "license": "ISC"
+}
