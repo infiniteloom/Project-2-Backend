@@ -8,6 +8,8 @@ const app = express(); //creates express application object
 const morgan = require("morgan"); //Brings in Morgan Library for the auto-logging
 const cors = require("cors"); //Brings in CORS library for security
 const mongoose = require("mongoose"); //bring in mongoose library
+const artistRouter = require('./routes/artist.js')
+const artworkRouter = require('./routes/artwork.js')
 
 // route handlers:
 // const router = require('')
@@ -19,7 +21,7 @@ const mongoose = require("mongoose"); //bring in mongoose library
 // Variables with global scope
 const PORT = process.env.PORT; //port number for server as defined in environment variables
 const NODE_ENV = process.env.NODE_ENV; //"development" or "production"
-const mongoURI = process.env.mongoURI + "index"; //URI for connecting to database specified in .env
+const mongoURI = process.env.mongoURI + "archivista"; //URI for connecting to database specified in .env
 const db = mongoose.connection; //the mongoose connection object
 const mongoConfigObject = { useNewUrlParser: true, useUnifiedTopology: true }; //Config option to eliminate deprecation warnings
 
@@ -78,8 +80,9 @@ app.get("/", (req, res) => {
   res.send("If you see this then the server is working!");
 });
 
-// app.use ROUTE
-// app.use('/', router)
+// app.use ROUTES
+app.use('/artists', artistRouter)
+app.use('/artworks', artworkRouter)
 
 
 

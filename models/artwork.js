@@ -24,7 +24,8 @@ const artworkSchema = new Schema (
         materials: { type: Array, required: false },
         notes: { type: String, required : false},
         imageUrl: { type: String, required : true}
-    }
+    },
+    {timestamps: true}
 )
 
 module.exports = mongoose.model('Artwork', artworkSchema)

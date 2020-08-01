@@ -14,8 +14,8 @@ const artistSchema = new Schema (
         ],
         medium: { type: Array, required : true},
     },
-    {timestamps: false} // Often need timestamps but not in this case for our project
+    {timestamps: true} 
 )
 
 
-module.exports = model('Artist', artistSchema)
+module.exports = mongoose.model('Artist', artistSchema)

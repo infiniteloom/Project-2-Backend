@@ -1,7 +1,17 @@
-const express = require('express')
-const router = express.Router()
 //importing the router method from express to build our routers
+const { index, seed, create, update, destroy } = require('../controllers/artwork.js')
+const { Router }= require('express')
+const router = Router()
 
-router.get('/', (req, res) => {
-    res.send('Awesome!')
-})
+router.get('/', index)
+
+router.get('/seed', seed)
+
+router.post('/', create)
+
+router.put('/:id', update)
+
+router.put('/:id', destroy)
+
+
+module.exports = router
