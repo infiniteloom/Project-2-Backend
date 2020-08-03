@@ -36,7 +36,7 @@ Total: 9hrs
 | Seed Database    |    H     |      2hr       |      2hr       |     -hr     |
 | Routes working   |    H     |     2-3hr      |      1hr       |     -hr     |
 | Server.js        |    H     |      .25hr     |      .25hr     |     -hr     |
-| Deploy           |    H     |      .25hr     |      .25hr     |     -hr     |
+| Deploy           |    H     |      .25hr     |      2hr     |     .5hr     |
 | Total            |          |    4-5hrs      |      3.5hrs    |    -hrs     |
 
 #### PostMVP

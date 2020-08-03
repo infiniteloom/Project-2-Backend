@@ -33,7 +33,6 @@ const index = async (req, res) =>{
     db.close()
 }
 
-
 // const findArtist = async (req, res) => {
 //     try{
 //         const artists = await Artist.find({}).populate('artworks').sort({"firstName": 1})
