@@ -14,7 +14,6 @@ const artworkRouter = require('./routes/artwork.js')
 // route handlers:
 // const router = require('')
 
-
 //////////////////////
 //GlOBAL VARIABLES
 /////////////////////
