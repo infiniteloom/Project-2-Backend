@@ -20,7 +20,7 @@ const artworkRouter = require('./routes/artwork.js')
 // Variables with global scope
 const PORT = process.env.PORT; //port number for server as defined in environment variables
 const NODE_ENV = process.env.NODE_ENV; //"development" or "production"
-const mongoURI = process.env.mongoURI + "archivista"; //URI for connecting to database specified in .env
+const mongoURI = process.env.mongoURI;  //URI for connecting to database specified in .env
 const db = mongoose.connection; //the mongoose connection object
 const mongoConfigObject = { useNewUrlParser: true, useUnifiedTopology: true }; //Config option to eliminate deprecation warnings
 
@@ -44,7 +44,7 @@ db.on("disconnected", () => console.log("mongo disconnected"));
 // CORS SECURITY CONFIGURATIONS
 /////////////////////
 // CREATE A WHITELIST OF WHICH WEBSITES CAN MAKE API CALLS TO YOUR SERVER
-const whitelist = ["http://localhost:3000/", "http://infiniteloom-project2.netlify.app"];
+const whitelist = ["http://localhost:3000/", "http://infiniteloom-project2.netlify.app", "https://ltproject2.herokuapp.com/"];
 const corsOptions = {
   origin: function (origin, callback) {
     if (whitelist.indexOf(origin) !== -1) {
