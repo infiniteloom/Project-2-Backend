@@ -3,48 +3,7 @@
 | ----- | ---------------------------------------------------------------- | ---------- |
 | Day 1 | Project Description                                              | Complete   |
 | Day 1 | Wireframes / Priority Matrix / Timeline `backend` and `frontend` | Complete   |
-| Day 2 | Working RestAPI                                                  | Incomplete |
+| Day 2 | Working RestAPI                                                  | Complete   |
 | Day 3 | Core Application Structure (HTML, CSS, etc.)                     | Incomplete |
 | Day 4 | MVP & Bug Fixes                                                  | Incomplete |
 | Day 5 | Final Touches and Present         
-
-## Backend Repo
-
-[Backend](https://github.com/wjclavell/BackEnd-P2/blob/master/planning_directory/project-worksheet.md)
-
-## User Stories
-MVP:
-- User visits app to view personal collection of artwork.
-- User adds a new artwork to the collection
-- User edits an existing artwork to add new information
-- User deletes artwork no longer in collection
-
-
-Post-MVP:
-- User organizes the display of the artworks by name a-z, artwork title a-z, timestamps, etc. 
-
-
-## Wireframes
-Web: 
-Intro Page Header with Dropdown Menu:
-https://res.cloudinary.com/infiniteloom/image/upload/v1596226311/Unit%2002%20-%20Project%20/Web%20Mockup/Web_Intro_Header_p0mwqr.png
-
-Intro Page, Full Length:
-https://res.cloudinary.com/infiniteloom/image/upload/v1596226311/Unit%2002%20-%20Project%20/Web%20Mockup/Web_Intro_Long_fhoj6z.png
-
-Edit Artwork Form:
-https://res.cloudinary.com/infiniteloom/image/upload/v1596226311/Unit%2002%20-%20Project%20/Web%20Mockup/Web_Edit_Artwork_Page_ql0db1.png
-
-
-Mobile: 
-Intro Page Header: 
-https://res.cloudinary.com/infiniteloom/image/upload/v1596226225/Unit%2002%20-%20Project%20/Mobile%20Mockup/Mobile_Intro_Header_mwcx49.png
-
-Intro Page, Full Length: 
-https://res.cloudinary.com/infiniteloom/image/upload/v1596226225/Unit%2002%20-%20Project%20/Mobile%20Mockup/Mobile_Intro_Long_pl7ojh.png
-
-Intro Page Footer: 
-https://res.cloudinary.com/infiniteloom/image/upload/v1596226224/Unit%2002%20-%20Project%20/Mobile%20Mockup/Mobile_Intro_Footer_rbwe9o.png
-
-Edit Artwork Form: 
-https://res.cloudinary.com/infiniteloom/image/upload/v1596226253/Unit%2002%20-%20Project%20/Mobile%20Mockup/Mobile_Edit_Artwork_Page_lfcogw.png
