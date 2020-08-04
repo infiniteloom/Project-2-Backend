@@ -18,7 +18,7 @@ const seed = async (req, res) => {
         await artist.save()
         // console.log(artist)
     }))
-    db.close()
+    // db.close()
 }
 
 // Index Route
@@ -30,7 +30,7 @@ const index = async (req, res) =>{
     catch (error){
         res.status(400).json(error)
     }
-    db.close()
+    // db.close()
 }
 
 // const findArtist = async (req, res) => {
@@ -53,7 +53,7 @@ const create = async (req, res)=>{
     catch(error){
         res.status(400).json(error)
     }
-    db.close()
+    // db.close()
 }
 
 
@@ -82,7 +82,7 @@ const update = async (req, res) => {
     catch(error){
         res.status(400).json(error)
     }
-    db.close()
+    // db.close()
 }
 
 
@@ -95,7 +95,7 @@ const destroy = async (req, res) => {
     catch (error) {
         res.status(400).json(error)
     }
-    db.close()
+    // db.close()
 }
 
 
