@@ -47,7 +47,9 @@ const index = async (req, res) =>{
 // Create Artwork Route 
 const create = async (req, res)=>{
     try{
+        console.log(req.body)
         const newArtwork = await Artwork.create(req.body)
+        console.log(newArtwork)
         res.status(200).json(newArtwork)
     }
     catch(error){
