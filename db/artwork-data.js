@@ -133,7 +133,7 @@ module.exports = [
         year : 1989,
         materials: ["Oil Paint"],
         notes: "Created on Maui, Hawaii",
-        imageUrl: "https://res.cloudinary.com/infiniteloom/image/upload/v1596250316/Unit%2002%20-%20Project%20/Assets/the_homecoming_ngnjmh.pnghttps://res.cloudinary.com/infiniteloom/image/upload/v1596250316/Unit%2002%20-%20Project%20/Assets/the_homecoming_ngnjmh.pnghttps://res.cloudinary.com/infiniteloom/image/upload/v1596250316/Unit%2002%20-%20Project%20/Assets/the_homecoming_ngnjmh.pnghttps://res.cloudinary.com/infiniteloom/image/upload/v1596250316/Unit%2002%20-%20Project%20/Assets/the_homecoming_ngnjmh.pnghttps://res.cloudinary.com/infiniteloom/image/upload/v1596250316/Unit%2002%20-%20Project%20/Assets/the_homecoming_ngnjmh.pnghttps://res.cloudinary.com/infiniteloom/image/upload/v1596250316/Unit%2002%20-%20Project%20/Assets/the_homecoming_ngnjmh.pnghttps://res.cloudinary.com/infiniteloom/image/upload/v1596250316/Unit%2002%20-%20Project%20/Assets/the_homecoming_ngnjmh.pnghttps://res.cloudinary.com/infiniteloom/image/upload/v1596250316/Unit%2002%20-%20Project%20/Assets/the_homecoming_ngnjmh.pnghttps://res.cloudinary.com/infiniteloom/image/upload/v1596250316/Unit%2002%20-%20Project%20/Assets/the_homecoming_ngnjmh.pnghttps://res.cloudinary.com/infiniteloom/image/upload/v1596250316/Unit%2002%20-%20Project%20/Assets/the_homecoming_ngnjmh.pnghttps://res.cloudinary.com/infiniteloom/image/upload/v1596250316/Unit%2002%20-%20Project%20/Assets/the_homecoming_ngnjmh.pnghttps://res.cloudinary.com/infiniteloom/image/upload/v1596250316/Unit%2002%20-%20Project%20/Assets/the_homecoming_ngnjmh.pnghttps://res.cloudinary.com/infiniteloom/image/upload/v1596250316/Unit%2002%20-%20Project%20/Assets/the_homecoming_ngnjmh.pnghttps://res.cloudinary.com/infiniteloom/image/upload/v1596250316/Unit%2002%20-%20Project%20/Assets/the_homecoming_ngnjmh.pnghttps://res.cloudinary.com/infiniteloom/image/upload/v1596250316/Unit%2002%20-%20Project%20/Assets/the_homecoming_ngnjmh.pnghttps://res.cloudinary.com/infiniteloom/image/upload/v1596250316/Unit%2002%20-%20Project%20/Assets/the_homecoming_ngnjmh.pnghttps://res.cloudinary.com/infiniteloom/image/upload/v1596250316/Unit%2002%20-%20Project%20/Assets/the_homecoming_ngnjmh.pnghttps://res.cloudinary.com/infiniteloom/image/upload/v1596250316/Unit%2002%20-%20Project%20/Assets/the_homecoming_ngnjmh.pnghttps://res.cloudinary.com/infiniteloom/image/upload/v1596250316/Unit%2002%20-%20Project%20/Assets/the_homecoming_ngnjmh.pnghttps://res.cloudinary.com/infiniteloom/image/upload/v1596250316/Unit%2002%20-%20Project%20/Assets/the_homecoming_ngnjmh.png"
+        imgUrl: "https://res.cloudinary.com/infiniteloom/image/upload/v1596250316/Unit%2002%20-%20Project%20/Assets/the_homecoming_ngnjmh.png" 
     },
     {
         title : "Mountain Rumors",
@@ -141,7 +141,7 @@ module.exports = [
         year : 1989,
         materials: ["Sumi", "Antique Paper"],
         notes: "Created on Maui, Hawaii",
-        imageUrl: "https://res.cloudinary.com/infiniteloom/image/upload/v1596250316/Unit%2002%20-%20Project%20/Assets/the_homecoming_ngnjmh.png"
+        imageUrl: "https://res.cloudinary.com/infiniteloom/image/upload/v1596250319/Unit%2002%20-%20Project%20/Assets/mountain_rumors_twbeza.png"
     },
     {
         title : "It Might Not Be So Heavy",
