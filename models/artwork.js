@@ -13,13 +13,12 @@ const Schema = mongoose.Schema
 const artworkSchema = new Schema (
     {
         title: { type: String, required : true},
-        artist : [
+        artist : 
             {
                 type: Schema.Types.ObjectId,
                 ref: 'Artist',
                 required: true,
-            }
-        ],
+            },
         year: { type: Number, required: false },
         materials: { type: Array, required: false },
         notes: { type: String, required : false},

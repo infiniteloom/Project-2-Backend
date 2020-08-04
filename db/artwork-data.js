@@ -141,7 +141,7 @@ module.exports = [
         year : 1989,
         materials: ["Sumi", "Antique Paper"],
         notes: "Created on Maui, Hawaii",
-        imageUrl: "https://res.cloudinary.com/infiniteloom/image/upload/v1596250319/Unit%2002%20-%20Project%20/Assets/mountain_rumors_twbeza.png"
+        imageUrl: "https://res.cloudinary.com/infiniteloom/image/upload/v1596250316/Unit%2002%20-%20Project%20/Assets/the_homecoming_ngnjmh.png"
     },
     {
         title : "It Might Not Be So Heavy",
@@ -165,6 +165,6 @@ module.exports = [
         year : 2016,
         materials: ["Oil Paint"],
         notes: "Created on Maui, Hawaii",
-        imageUrl: ""
+        imageUrl: "https://res.cloudinary.com/infiniteloom/image/upload/v1596217512/Unit%2002%20-%20Project%20/Assets/Lea3_tpcgcz.png"
     }
 ]
