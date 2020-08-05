@@ -33,15 +33,16 @@ const index = async (req, res) =>{
     // db.close()
 }
 
-// const findArtist = async (req, res) => {
-//     try{
-//         const artists = await Artist.find({}).populate('artworks').sort({"firstName": 1})
-//         console.log(artists)
-//         res.status(200).json(artists)
-//     }catch(error){
-//         res.status(400).send(error)
-//     }
-// }
+// Get One Artist Route
+const getOne = async (req, res) => {
+    try{
+        const artist = await Artwork.findById(req.params.id).populate('artist')
+        console.log(artist)
+        res.status(200).json(artist)
+    }catch(error){
+        res.status(400).send(error)
+    }
+}
 
 
 // Create Artwork Route 
@@ -104,7 +105,7 @@ const destroy = async (req, res) => {
 module.exports = {
     index,
     seed,
-    // findArtist,
+    getOne,
     create,
     update,
     destroy
