@@ -34,10 +34,13 @@ const index = async (req, res) =>{
 
 const create = async (req, res)=>{
     try{
+        console.count()
         const newArtist = await Artist.create(req.body)
+        console.count()
         res.status(200).json(newArtist)
     }
     catch(error){
+        console.log(error)
         res.status(400).json(error)
     }
     db.close()
