@@ -79,7 +79,7 @@ const create = async (req, res)=>{
 // Update Artwork Route
 const update = async (req, res) => {
     try {
-        const updatedArtwork = await Artwork.findByIdAndUpdate(req.params.id, req.body)  
+        const updatedArtwork = await Artwork.findByIdAndUpdate(req.params.id, req.body, {new: true})  
         console.log(req.body)  
         res.status(200).json(updatedArtwork)
     }
