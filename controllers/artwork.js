@@ -94,7 +94,7 @@ const update = async (req, res) => {
 const destroy = async (req, res) => {
     try{
         const destroyedArtwork = await Artwork.findByIdAndRemove(req.params.id)
-        res.status(200).json(destroyedArtwork)
+        res.status(200).json('successfully deleted')
     }
     catch (error) {
         res.status(400).json(error)
