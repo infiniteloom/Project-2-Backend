@@ -93,7 +93,7 @@ const update = async (req, res) => {
 // Destroy Artwork Route
 const destroy = async (req, res) => {
     try{
-        const destroyedArtwork = await Artwork.findByIdAndDelete(req.params.id)
+        const destroyedArtwork = await Artwork.findByIdAndRemove(req.params.id)
         res.status(200).json(destroyedArtwork)
     }
     catch (error) {

@@ -13,7 +13,7 @@ router.post('/', create)
 
 router.put('/:id', update)
 
-router.put('/:id', destroy)
+router.delete('/:id', destroy)
 
 
 module.exports = router
