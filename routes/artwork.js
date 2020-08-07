@@ -7,7 +7,7 @@ router.get('/', index)
 
 router.get('/:id', getOne)
 
-router.get('/seed/seed', seed)
+router.get('/seed', seed)
 
 router.post('/', create)
 
