@@ -1,17 +1,21 @@
 # Project 2 Backend Worksheet	
 
 ## Description: 
-**“Archivista."** is an app that allows a user to manage their personal art collection or create a wishlist for a future collection through a modern, minimal interface. 
+**“Archivista.”** is an app that allows a user to manage their personal art collection or create a wishlist for a future collection through a modern, minimal interface. 
 
-**Archivista** is a combination of the words Archive and Vista, referring to the ability to view one’s art archives from a bird’s eye perspective. The Vista view mode is the default mode on site load. 
+**Archivista** is a combination of the words Archive and Vista, referring to the ability to view one’s art archives from a bird’s eye perspective. 
 
-**Archivista** is primarily used by art collectors of all types but can also be used as a way to pin or save artworks to a wishlist for those who are interested in becoming a collector. Users will be able to add new artworks or browse their existing collection by artist or by artworks. 
+**Archivista** is primarly used by art collectors of all types but can also be used as a way to pin or save artworks to a wishlist for those who are interested in becoming a collector. Users will be able to add new artists/artworks or browse their existing collection by artist or by artworks. 
 
-Features coming soon: Thumnail with text view mode with sorting functionality to organize artworks by user’s personal ratings, recent -> least recently added, alphabetical by artist, alphabetical by artworks.
+Features coming soon: 
+- Search by artwork / artist name A-Z
+- Sort artworks by user’s personal ratings to bring favorites up to the front 
+- Toggle between list view and 'vista' view
+
 
 ## Inspiration: 
-- Etsy.com 
 - Artsy.com
+- Etsy.com 
 
 ## Database Design Architecture: 
 ```
